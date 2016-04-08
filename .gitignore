@@ -1,0 +1,30 @@
+# global .gitignore (@ $HOME)
+#
+.gitignore
+
+# vim temporary files
+.*.sw*
+
+# editor helper
+tags
+cscope.out
+
+# binaries
+*.o
+*.a
+*.so
+
+# core dump
+core
+*.core
+
+# patch related
+*.orig
+*.rej
+
+# Mac OS/X
+.DS_Store
+*.dSYM/*
+# Mac OS/X temporary file
+._*
+
